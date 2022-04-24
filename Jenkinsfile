@@ -19,5 +19,10 @@ pipeline
                 echo "Demo-Stage"
             }
         }
+        stage(LastStage){
+            steps{
+                echo "last-Stage"
+            }
+        }
     }
 }
