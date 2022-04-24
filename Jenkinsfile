@@ -14,9 +14,9 @@ pipeline
             }
         
         }
-        stage(bulli){
+        stage(Demo-Stage){
             steps{
-                echo "bulliii"
+                echo "Demo-Stage"
             }
         }
     }
