@@ -14,7 +14,7 @@ pipeline
             }
         
         }
-        stage(Demo-Stage){
+        stage(DemoStage){
             steps{
                 echo "Demo-Stage"
             }
